@@ -11,7 +11,7 @@ There was cors exception when using API urls directly in the front end so I crea
 Step 1: npm install
 Step 2: npm start
 
-The server would start at port 4001 that is http://localhost:8080/
+The server would start at port 4001 that is http://localhost:4001/
 
 2. Weather Front End
 To start the font end
