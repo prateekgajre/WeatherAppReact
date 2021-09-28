@@ -1,0 +1,148 @@
+.container {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.grid-container-current-weather {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container-current-weather {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #323134;
+    padding: 30px;
+}
+
+.grid-container-current-weather>div {
+    text-align: center;
+}
+
+.grid-item-current-weather-span {
+    grid-column: 1/ span 2;
+    grid-row: 2 / span 2;
+}
+
+.font-color {
+    color: lightseagreen;
+}
+
+.font-color-1 {
+    color: seagreen;
+}
+
+.font-display-1 {
+    font-size: 20%;
+}
+
+@media screen and (min-width: 300px) {
+    div.font-display-temp {
+        font-size: 300%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div.font-display-temp {
+        font-size: 500%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.font-display-temp {
+        font-size: 800%;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    div.font-display {
+        font-size: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div.font-display {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.font-display {
+        font-size: 100%;
+    }
+}
+
+.weather-grid-main {
+    margin: auto;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    .weather-grid-size {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .weather-grid-size {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+    .weather-grid-size {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .weather-grid-size {
+        width: 40%;
+    }
+}
+
+.grid-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
